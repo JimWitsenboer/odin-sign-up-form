@@ -1,0 +1,107 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+
+}
+
+.left__subcontainer{
+  height: 100vh;
+  width: 30%;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.left__subcontainer__banner{
+  color: white;
+  background-color: rgba(255, 255, 255, 0.244);
+  text-align: center;
+  margin-top: 20%;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+.right__subcontainer{
+  height: 100vh;
+  width: 70%;
+  background-color: #13151E;
+  border-radius: 0px 10px 10px 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.right__subcontainer p{
+  font-size: 1.0em;
+}
+.right__subcontainer__top__banner{
+  color: white;
+  margin-top: 10%;
+  padding: 0px 10%;
+}
+.right__subcontainer__top__banner p{
+  font-size: 1.4em;
+
+}
+
+.sign_up_form{
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #242834;
+  padding: 5% 10%;
+}
+
+.form__input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input{
+  width: 85%;
+  padding: 10px 0px;
+  background-color: #434759;
+  border: 1px solid #434759;
+  border-radius: 4px;
+  color: white;
+}
+
+label{
+  font-size: 1.0em;
+}
+
+.right__subcontainer__bottom__banner{
+  padding: 5% 10%;
+  color: white;
+}
+
+.right__subcontainer__bottom__banner a{
+  color: #82ba08;
+  margin: 0 6px;
+}
+
+
+#primary__button{
+  color: #fff;
+  background-color: #82ba08 !important;
+  border-radius: 10px;
+  margin: 0 6px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  padding: 8px 25px;
+  font-size: 16px;
+  border-width: 0px;
+  align-items: center;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+  width: 20%;
+}
